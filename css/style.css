@@ -1,14 +1,14 @@
 /* =========================================
-   IDENTIDAD VISUAL Y VARIABLES CSS (FONDO AZUL Y LETRAS BLANCAS)
+   IDENTIDAD VISUAL Y VARIABLES CSS
    ========================================= */
 :root {
-    --color-fondo-principal: #0b1329; /* Fondo azul profundo principal */
-    --color-fondo-secundario: #111e38; /* Fondo azul un poco más claro para secciones */
-    --color-texto: #ffffff;           /* Letras blancas */
-    --color-texto-secundario: #cbd5e1;/* Gris muy claro para subtítulos y descripciones */
-    --color-principal: #ff3333;       /* Rojo corporativo brillante para resaltar */
-    --color-secundario: #ff7700;      /* Naranja secundario */
-    --color-borde: #1e293b;           /* Bordes sutiles oscuros */
+    --color-fondo-principal: #0b1329;
+    --color-fondo-secundario: #111e38;
+    --color-texto: #ffffff;
+    --color-texto-secundario: #cbd5e1;
+    --color-principal: #ff3333;
+    --color-secundario: #ff7700;
+    --color-borde: #1e293b;
 }
 
 /* =========================================
@@ -42,7 +42,6 @@ img {
     display: block;
 }
 
-/* Clases utilitarias para hacer imágenes más pequeñas */
 .img-pequeña {
     max-width: 380px;
     width: 100%;
@@ -56,7 +55,7 @@ img {
 }
 
 /* =========================================
-   1. HEADER / ENCABEZADO (FLEXBOX)
+   1. HEADER / ENCABEZADO
    ========================================= */
 .encabezado {
     background-color: var(--color-fondo-secundario);
@@ -100,7 +99,7 @@ img {
 }
 
 /* =========================================
-   2. HERO (FLEXBOX - DOS COLUMNAS)
+   2. HERO
    ========================================= */
 .hero {
     background-color: var(--color-fondo-principal);
@@ -162,16 +161,14 @@ img {
 }
 
 /* =========================================
-   3. SECCIÓN NOSOTROS (FLEXBOX)
+   3. SECCIÓN NOSOTROS
    ========================================= */
 .nosotros {
     padding: 80px 20px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto;
     background-color: var(--color-fondo-secundario);
     border-radius: 12px;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .nosotros-contenedor {
@@ -209,7 +206,7 @@ img {
 }
 
 /* =========================================
-   4. PRODUCTOS (FLEXBOX CON WRAP)
+   4. PRODUCTOS
    ========================================= */
 .productos {
     background-color: var(--color-fondo-principal);
@@ -291,7 +288,7 @@ img {
 }
 
 /* =========================================
-   5. BENEFICIOS O SERVICIOS (FLEXBOX)
+   5. SERVICIOS
    ========================================= */
 .servicios {
     padding: 80px 20px;
@@ -380,3 +377,4 @@ img {
     background-color: var(--color-principal);
     color: #ffffff;
     font-family: Helvetica, Arial, sans-serif;
+}
